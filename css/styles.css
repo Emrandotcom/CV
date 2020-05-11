@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  text-align: center;
+  height: auto;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+h1 {
+  font-family: 'Merienda', cursive;
+  color: #b2ebf2;
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #00bcd4;
+  font-size: 40px;
+}
+
+hr {
+  border: dotted #00bcd4 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-cloud {
+  display: block;
+  position: absolute;
+  top: 100px;
+  right: 290px;
+  /*
+  display: block;
+  height: 50px;
+  width: 150px;
+  position: relative;
+  animation-name: cloud;
+  animation-duration: 70s;
+  animation-iteration-count: infinite;
+  */
+}
+
+.bottom-cloud {
+  display: block;
+  position: absolute;
+  left: 200px;
+  /*
+  display: block;
+  height: 50px;
+  width: 150px;
+  position: relative;
+  animation-name: cloud;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  */
+}
+
+/*
+@keyframes cloud {
+  0% {
+    left: 0;
+    transform: translateX(0);
+  }
+
+  50% {
+    left: 100%;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    left: 0;
+    transform: translateX(0);
+  }
+}
+*/
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.pro {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.top-container {
+  background: linear-gradient(#0779e4, #9198e5);
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 10px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.bio {
+  width: 30%;
+  margin: auto;
+}
+
+.profile {
+  padding-top: 50px;
+  background: linear-gradient(#9198e5, white);
+}
+
+.WebDev-gif {
+  width: 25%;
+  float: left;
+  margin: auto 30px;
+}
+
+.keyboard-gif {
+  width: 30%;
+  float: right;
+  margin: auto 30px;
+}
+
+.testing-gif {
+  width: 25%;
+  float: left;
+  margin: auto 30px;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.skills {
+  margin-bottom: 100px;
+  padding-bottom: 30px;
+}
+
+.skill-row {
+  background-color: white;
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.contact-me {
+  line-height: 2;
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+  background-color: #11cdd4;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  padding: 8px 31px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #2f6627;
+  margin: 10px auto;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+  background-color: #11999e;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.bottom-container {
+  background-color: #b2ebf2;
+  color: white;
+  text-align: center;
+  padding: 50px 0 20px;
+  margin-bottom: 0;
+}
+
+.footer-link {
+  color: #50d5e6;
+  margin: 5px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
