@@ -1,4 +1,4 @@
 # cv
 
 Work in Progress:
-https://emrandotcom.github.io/cv/
+https://emrandotcom.github.io/CV/
